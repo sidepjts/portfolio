@@ -1,0 +1,42 @@
+a, a:link, a:visited, a:focus, a:hover, a:active{
+    color: #44bdbd;
+    text-decoration:none;
+    cursor: crosshair;
+}
+
+.home-grid {
+    text-align: center;
+}
+
+.avatar-img {
+    border-radius: 50%;
+    width:  20%;
+    margin-top: 5%;
+}
+
+.banner-text {
+    background-color: transparent;
+    opacity: .8;
+    width: 75%;
+    margin: auto;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.banner-text h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: lightblue;
+}
+
+.banner-text hr {
+    margin: auto;
+    border-top: 5px dotted lightblue;
+    width: 50%;
+}
+
+.banner-text p {
+    font-size: 20px;
+    color: #fff;
+    padding: 1em;
+}
