@@ -1,13 +1,14 @@
 import React from 'react';
+import './App.css';
 import {Content, Drawer, Header, Layout, Navigation, Textfield} from "react-mdl";
 import Main from "./components/main";
 import {Link} from "react-router-dom";
 
 function App() {
   return (
-      <div style={{height: '300px', position: 'relative'}}>
-          <Layout style={{background: 'url(images/sfondo.jpg) center / cover'}}>
-              <Header transparent title={<span><Link to="/">My Portfolio</Link></span>} style={{color: 'white'}}>
+      <div>
+          <Layout style={{background: 'url(images/img_13_bg.jpg) center / cover'}}>
+              <Header transparent title={<span><Link to="/">Carlo Butelli</Link></span>} scroll>
                   <Navigation>
                       <Link to="/about">About Me</Link>
                       <Link to="/expertise">Expertise</Link>
@@ -24,7 +25,7 @@ function App() {
                       expandableIcon="search"
                   />
               </Header>
-              <Drawer title="My Portfolio">
+              <Drawer title={<span><Link to="/">Carlo Butelli</Link></span>}>
                   <Navigation>
                       <Link to="/about">About Me</Link>
                       <Link to="/expertise">Expertise</Link>
