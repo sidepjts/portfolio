@@ -39,7 +39,7 @@ a, a:link, a:visited, a:focus, a:hover, a:active{
 .home-grid h1 {
     font-size: 40px;
     font-weight: bold;
-    color: #f2f3f7;
+    color: #777777;
     margin-bottom: auto;
 }
 
@@ -89,11 +89,20 @@ a, a:link, a:visited, a:focus, a:hover, a:active{
 .fa-github:hover {
     background: #ffffff;
     transition: fill 170ms ease-in-out 0s;
-    fill: rgb(65, 131, 196);
+    fill: rgb(0, 0, 0);
 }
 
 .fa-linkedin:hover {
     background: #ffffff;
     transition: fill 170ms ease-in-out 0s;
-    fill: rgb(44, 152, 240);
+    fill: rgb(14, 118, 168);
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.fa-chevron-down {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    padding: 20px;
 }

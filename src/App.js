@@ -8,7 +8,7 @@ function App() {
   return (
       <div>
           <Layout style={{background: 'url(images/img_13_bg.jpg) center / cover'}}>
-              <Header transparent title={<span><a className='my-logo' href="/portfolio">Carlo Butelli</a></span>} scroll>
+              <Header transparent title={<span><Link className='my-logo' to="/portfolio">Carlo Butelli</Link></span>} scroll>
                   <Navigation>
                       <Link to="/about">About Me</Link>
                       <Link to="/expertise">Expertise</Link>
