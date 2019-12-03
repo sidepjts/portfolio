@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import {Cell, Grid} from "react-mdl";
 import { FaFacebook, FaTwitter, FaInstagram, FaGithub, FaLinkedin } from 'react-icons/fa';
+import {FaChevronDown} from "react-icons/fa";
 
 class Home extends Component {
     render() {
@@ -51,6 +52,9 @@ class Home extends Component {
                         </div>
                     </Cell>
                 </Grid>
+                <div className="fa-chevron-down">
+                    <FaChevronDown/>
+                </div>
             </div>
         )
     }
