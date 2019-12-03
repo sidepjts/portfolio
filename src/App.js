@@ -8,7 +8,7 @@ function App() {
   return (
       <div>
           <Layout style={{background: 'url(images/img_13_bg.jpg) center / cover'}}>
-              <Header transparent title={<span><Link to="/portfolio">Carlo Butelli</Link></span>} scroll>
+              <Header transparent title={<span><a className='my-logo' href="/portfolio">Carlo Butelli</a></span>} scroll>
                   <Navigation>
                       <Link to="/about">About Me</Link>
                       <Link to="/expertise">Expertise</Link>
@@ -17,6 +17,7 @@ function App() {
                       <Link to="/contacts">Contacts</Link>
                       <Link to="/blog">Blog</Link>
                   </Navigation>
+                  <div className="header-icons-divider" />
                   <Textfield
                       value=""
                       onChange={() => {}}
@@ -25,7 +26,7 @@ function App() {
                       expandableIcon="search"
                   />
               </Header>
-              <Drawer title={<span><Link to="/portfolio">Carlo Butelli</Link></span>}>
+              <Drawer title={<span><Link className='my-logo' to="/portfolio">Carlo Butelli</Link></span>}>
                   <Navigation>
                       <Link to="/about">About Me</Link>
                       <Link to="/expertise">Expertise</Link>
