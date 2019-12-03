@@ -27,7 +27,7 @@ a, a:link, a:visited, a:focus, a:hover, a:active{
     background: rgba(138,137,166,0.9);
     background: linear-gradient(90deg, rgba(138,137,166,0.6) 0%, rgba(218,240,236,0.2864320728291317) 43%, rgba(61,187,213,0.6) 100%);
     width: 50%;
-    margin-top: 10%;
+    margin-top: 5%;
     border-radius: 65px;
 }
 
